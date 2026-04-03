@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><meta name='description' content='VIP Finance Centre - Création d&#39;entreprises a mohammedia. Expert comptable a mohammedia'><title>VIP Finance Centre - Création d&#39;entreprises &#8212; Comptable &#224; mohammedia</title><link rel='preconnect' href='https://fonts.googleapis.com'><link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap'><style>:root{--acc:#ce2c2c;--bg:#f6f8fb;--txt:#101828;--mut:#667085;--surf:#ffffff;
+--fh:'Font Awesome 5 Free',Georgia,serif;--fb:'Font Awesome 5 Brands',sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:var(--fb);background:var(--bg);color:var(--txt);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+#main-nav{position:sticky;top:0;z-index:100;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,.86);backdrop-filter:blur(14px);border-bottom:1px solid rgba(16,24,40,.08)}
+.nav-logo{font-family:var(--fh);font-size:1rem;letter-spacing:2px;text-transform:uppercase}
+.nav-links{display:flex;gap:18px;align-items:center}.nav-links a{font-size:.78rem;letter-spacing:1.6px;text-transform:uppercase;color:var(--mut)}
+.nav-cta{background:var(--acc);color:#111;padding:11px 20px;border:none;border-radius:999px;font-size:.78rem;font-weight:800;cursor:pointer}
+.modern-hero{padding:54px 5% 26px}.modern-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;align-items:stretch}
+.hero-card,.hero-side-card,.m-card,.m-stat,.m-review,.m-process{background:#fff;border:1px solid rgba(16,24,40,.08);border-radius:24px;box-shadow:0 18px 38px rgba(16,24,40,.08)}
+.hero-card{padding:38px}.hero-card h1{font-family:var(--fh);font-size:clamp(2.7rem,5.5vw,4.9rem);line-height:.98;margin:10px 0 16px}
+.hero-card p,.m-copy{color:var(--mut);line-height:1.8}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.btn-primary,.btn-secondary{display:inline-flex;align-items:center;justify-content:center;padding:14px 18px;border-radius:999px;font-weight:800;border:none;cursor:pointer}
+.btn-primary{background:var(--acc);color:#111}.btn-secondary{background:#fff;color:var(--txt);border:1px solid rgba(16,24,40,.12)}
+.hero-side-card{padding:16px;display:grid;gap:16px}.hero-side-card img{width:100%;height:280px;object-fit:cover;border-radius:18px}
+.mini-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.mini-gallery img{width:100%;height:90px;object-fit:cover;border-radius:14px}
+.m-sec{padding:70px 5%}.m-head{display:flex;justify-content:space-between;gap:18px;align-items:end;margin-bottom:18px}
+.m-head h2{font-family:var(--fh);font-size:clamp(1.9rem,3.4vw,3.2rem)}
+.m-services,.m-stats,.m-reviews,.m-processes,.m-contact{display:grid;gap:16px}
+.m-services{grid-template-columns:repeat(3,1fr)}.m-stats{grid-template-columns:repeat(4,1fr)}.m-reviews{grid-template-columns:repeat(3,1fr)}.m-processes{grid-template-columns:repeat(3,1fr)}
+.m-card,.m-review,.m-process,.m-stat{padding:22px}.m-card h3,.m-process h3{margin:0 0 8px}.svc-prix,.stat-v{font-family:var(--fh);color:var(--acc)}
+.m-contact{grid-template-columns:1fr .95fr;align-items:start}
+footer{padding:56px 5%;display:grid;grid-template-columns:repeat(4,1fr);gap:30px;border-top:1px solid rgba(16,24,40,.08);background:#fff}
+.footer-brand{font-family:var(--fh);font-size:1.2rem;margin-bottom:10px}.footer-desc,footer a,.footer-copy{color:var(--mut);line-height:1.8}
+.footer-copy{grid-column:1/-1;padding-top:18px;border-top:1px solid rgba(16,24,40,.08);display:flex;justify-content:space-between}
+.wa-btn{position:fixed;bottom:28px;right:28px;z-index:9999;width:56px;height:56px;
+background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;
+box-shadow:0 4px 20px rgba(37,211,102,.5);animation:wpulse 2s infinite;text-decoration:none}
+.loading-screen,.ws-loader{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#05070d;color:#fff;z-index:99999;font:700 12px/1 Inter,sans-serif;letter-spacing:.24em;text-transform:uppercase}
+.hidden{opacity:0;pointer-events:none;transition:opacity .35s ease}
+@keyframes wpulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,.4)}50%{box-shadow:0 4px 40px rgba(37,211,102,.65)}}
+@media(max-width:960px){.modern-grid,.m-services,.m-stats,.m-reviews,.m-processes,.m-contact{grid-template-columns:1fr 1fr}.m-head{display:block}.nav-links{display:none}}
+@media(max-width:640px){.modern-grid,.m-services,.m-stats,.m-reviews,.m-processes,.m-contact,footer{grid-template-columns:1fr}.hero-actions{display:grid}}
+</style></head><body><div id='ws-loader' class='loading-screen'>Loading</div><nav id='main-nav' data-spa-nav><div class='nav-logo'>VIP Finance Centre - Création d&#39;entreprises</div><div class='nav-links'><a href='#services'>Services</a><a href='#reviews'>Avis</a><a href='#contact'>Contact</a><button class='nav-cta' data-cta onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Devis</button></div></nav><section class='hero modern-hero'><div class='modern-grid'><div class='hero-card'><div class='eyebrow'>comptable · mohammedia</div><h1>VIP Finance Centre - Création d&#39;entreprises</h1><p>Référence comptable à mohammedia</p><div class='hero-actions'><button class='btn-primary' data-cta onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Demander un devis</button><button class='btn-secondary' data-cta onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">Voir les services</button></div></div><div class='hero-side-card'><img src='https://lh3.googleusercontent.com/gps-cs-s/AHVAweqxGtx_PJGeasxeZgblXY5IZ4DH7P4fzQxCvDf5-gd5i5i2-iEvDKee24njHeAk8FcGNLOeu1z1cD28WrrMdN_unV5sGnb4V5bMaHBaI_7Xohlne6FpUtHAcCDIE3FgfpTu2b0k=w1200-h800-p-k-no' alt='VIP Finance Centre - Création d&#39;entreprises' loading='eager' onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1400&q=85&auto=format&fit=crop';}"/><div class='mini-gallery'><img src='https://lh3.googleusercontent.com/gps-cs-s/AHVAweqxGtx_PJGeasxeZgblXY5IZ4DH7P4fzQxCvDf5-gd5i5i2-iEvDKee24njHeAk8FcGNLOeu1z1cD28WrrMdN_unV5sGnb4V5bMaHBaI_7Xohlne6FpUtHAcCDIE3FgfpTu2b0k=w1200-h800-p-k-no&amp;sig=1' alt='VIP Finance Centre - Création d&#39;entreprises galerie 1' loading='lazy' onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1400&q=85&auto=format&fit=crop';}"/><img src='https://lh3.googleusercontent.com/gps-cs-s/AHVAweqxGtx_PJGeasxeZgblXY5IZ4DH7P4fzQxCvDf5-gd5i5i2-iEvDKee24njHeAk8FcGNLOeu1z1cD28WrrMdN_unV5sGnb4V5bMaHBaI_7Xohlne6FpUtHAcCDIE3FgfpTu2b0k=w1200-h800-p-k-no&amp;sig=2' alt='VIP Finance Centre - Création d&#39;entreprises galerie 2' loading='lazy' onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1400&q=85&auto=format&fit=crop';}"/><img src='https://lh3.googleusercontent.com/gps-cs-s/AHVAweqxGtx_PJGeasxeZgblXY5IZ4DH7P4fzQxCvDf5-gd5i5i2-iEvDKee24njHeAk8FcGNLOeu1z1cD28WrrMdN_unV5sGnb4V5bMaHBaI_7Xohlne6FpUtHAcCDIE3FgfpTu2b0k=w1200-h800-p-k-no&amp;sig=3' alt='VIP Finance Centre - Création d&#39;entreprises galerie 3' loading='lazy' onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1400&q=85&auto=format&fit=crop';}"/></div></div></div></section><section class='m-sec'><div class='m-head'><div><div class='eyebrow'>Services</div><h2>Une offre claire et facile a comprendre</h2></div><div class='m-copy'>Chaque bloc pousse vers l'action sans surcharge visuelle.</div></div><div id='services' class='m-services'><div class='m-card' data-service-card><div class='svc-ico'>&#127919;</div><h3>Service Premium</h3><p>Service professionnel pour mohammedia.</p><div class='svc-prix'>Sur devis</div></div><div class='m-card' data-service-card><div class='svc-ico'>&#9889;</div><h3>Expertise</h3><p>Service professionnel pour mohammedia.</p><div class='svc-prix'>Sur devis</div></div><div class='m-card' data-service-card><div class='svc-ico'>&#10024;</div><h3>Conseil</h3><p>Service professionnel pour mohammedia.</p><div class='svc-prix'>Sur devis</div></div><div class='m-card' data-service-card><div class='svc-ico'>&#128737;</div><h3>Support</h3><p>Service professionnel pour mohammedia.</p><div class='svc-prix'>Sur devis</div></div><div class='m-card' data-service-card><div class='svc-ico'>&#128142;</div><h3>Formation</h3><p>Service professionnel pour mohammedia.</p><div class='svc-prix'>Sur devis</div></div><div class='m-card' data-service-card><div class='svc-ico'>&#127775;</div><h3>Partenariat</h3><p>Service professionnel pour mohammedia.</p><div class='svc-prix'>Sur devis</div></div></div></section><section class='m-sec'><div class='m-head'><div><div class='eyebrow'>Preuves</div><h2>Des signaux de confiance immediats</h2></div></div><div class='m-stats'><div class='m-stat' data-stat><div class='stat-v'>10+</div><div class='m-copy'>Années d&#39;expérience</div></div><div class='m-stat' data-stat><div class='stat-v'>2+</div><div class='m-copy'>Clients satisfaits</div></div><div class='m-stat' data-stat><div class='stat-v'>5/5</div><div class='m-copy'>Note Google</div></div><div class='m-stat' data-stat><div class='stat-v'>48h</div><div class='m-copy'>Délai moyen</div></div></div></section><section class='m-sec'><div class='m-head'><div><div class='eyebrow'>Process</div><h2>Un site qui travaille pour vous</h2></div></div><div class='m-processes'><article class='m-process'><h3>1. Clarifier</h3><p class='m-copy'>Positionnement lisible et message utile des le premier ecran.</p></article><article class='m-process'><h3>2. Rassurer</h3><p class='m-copy'>Services, avis et contact visibles sans chercher.</p></article><article class='m-process'><h3>3. Convertir</h3><p class='m-copy'>Appels a l'action simples, rapides et repetes.</p></article></div></section><section class='m-sec'><div class='m-head'><div><div class='eyebrow'>Avis</div><h2>Ils nous font confiance</h2></div></div><div id='reviews' class='m-reviews'><div class='m-review' data-testimonial><div class='temo-stars'>&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Service exceptionnel chez VIP Finance Centre - Création d&#39;entreprises.&rdquo;</p><div class='temo-auth'>Fatima B. &mdash; mohammedia</div></div><div class='m-review' data-testimonial><div class='temo-stars'>&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Je recommande VIP Finance Centre - Création d&#39;entreprises sans hésiter.&rdquo;</p><div class='temo-auth'>Mohammed K. &mdash; mohammedia</div></div><div class='m-review' data-testimonial><div class='temo-stars'>&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Qualité irréprochable et contact rassurant.&rdquo;</p><div class='temo-auth'>Nadia S. &mdash; mohammedia</div></div></div></section><section class='m-sec'><div id='contact' class='m-contact'><div><div class='eyebrow'>Contact</div><h2>Parlons de votre projet</h2><p class='m-copy'>1 Rue Ibn Toumert Immeuble Sarh-Rouny Appartement 1, Mohammédia 28810<br>06 61 67 69 26</p><div class='map-box' data-reveal><iframe src='https://www.google.com/maps?q=1+Rue+Ibn+Toumert+Immeuble+Sarh-Rouny+Appartement+1%2C+Mohamm%C3%A9dia+28810%2C+Maroc&output=embed' loading='lazy' style='width:100%;height:320px;border:0;border-radius:20px'></iframe></div></div><div><form class='contact-form lead-form' onsubmit='return submitLead(event)'><input type='hidden' name='business' value='VIP Finance Centre - Création d&#39;entreprises'><input class='form-inp' type='text' name='name' placeholder='Votre nom' required><input class='form-inp' type='tel' name='phone' placeholder='Telephone' required><input class='form-inp form-full' type='email' name='email' placeholder='Email'><textarea class='form-inp form-full' name='message' rows='4' placeholder='Votre message'></textarea><button type='submit' class='btn-primary' data-cta style='justify-self:start'>Envoyer &#8594;</button></form></div></div></section><footer><div><div class='footer-brand'>VIP Finance Centre - Création d&#39;entreprises</div><div class='footer-desc'>Expert comptable a mohammedia</div></div><div><h4>Services</h4><a href='#services'>Service Premium</a><a href='#services'>Expertise</a><a href='#services'>Conseil</a><a href='#services'>Support</a></div><div><h4>Contact</h4><a href='tel:06 61 67 69 26'>06 61 67 69 26</a></div><div><h4>Ville</h4><a href='#contact'>mohammedia</a></div><div class='footer-copy'><span>&copy; 2026 VIP Finance Centre - Création d&#39;entreprises</span><span>Comptable &#224; mohammedia</span></div></footer><a href='https://wa.me/212661676926?text=Bonjour%20VIP Finance Centre - Création d&#39;entreprises' class='wa-btn' target='_blank' aria-label='WhatsApp'><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+<script>
+var WS_IMG_FALLBACK='https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=85&auto=format&fit=crop';
+window.wsImgFallback=function(img){
+  if(!img || img.dataset.wsFallback==='1') return;
+  img.dataset.wsFallback='1';
+  img.src = WS_IMG_FALLBACK;
+};
+document.querySelectorAll('img').forEach(function(img){
+  img.addEventListener('error', function(){ window.wsImgFallback(img); });
+});
+window.addEventListener('scroll',function(){
+  var nav=document.getElementById('main-nav');
+  if(nav) nav.classList.toggle('scrolled',window.scrollY>60);
+});
+window.addEventListener('load',function(){
+  var loader=document.getElementById('ws-loader');
+  if(loader){
+    loader.classList.add('hidden');
+    setTimeout(function(){ try{loader.remove();}catch(e){} }, 380);
+  }
+  var forms=document.querySelectorAll('form.contact-form,form.lead-form,form.lx-form');
+  forms.forEach(function(form){
+    if(form.dataset.wsBound==='1') return;
+    form.dataset.wsBound='1';
+    form.addEventListener('submit', function(ev){ return submitLead(ev); });
+  });
+});
+var io=new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if(e.isIntersecting){
+      e.target.style.opacity='1';
+      e.target.style.transform='translateY(0)';
+    }
+  });
+},{threshold:0.1});
+document.querySelectorAll('[data-reveal]').forEach(function(el){
+  el.style.opacity='0';
+  el.style.transform='translateY(24px)';
+  el.style.transition='opacity 0.6s ease, transform 0.6s ease';
+  io.observe(el);
+});
+window.submitLead=function(ev){
+  ev.preventDefault();
+  var form=ev.target;
+  var fd=new FormData(form);
+  var obj=Object.fromEntries(fd.entries());
+  fetch('/lead-capture',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(obj)
+  }).then(function(r){
+    if(r.ok){ form.reset(); alert('Message envoye. Merci.'); }
+    else { throw new Error('lead'); }
+  }).catch(function(){
+    var wa=(document.querySelector('.wa-btn')||{}).href;
+    if(wa){ window.open(wa,'_blank'); }
+  });
+  return false;
+};
+</script></body></html>
